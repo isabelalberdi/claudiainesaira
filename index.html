@@ -2,7 +2,14 @@
 <html lang="en">
 
   <head>
-
+    <script src="js/hashes.min.js"></script>
+    <script src="js/pfcheck.js"></script>
+    <script>
+      
+      if (!pfcheck()){
+          window.location.href="login.html";
+        }   
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Portfolio">
@@ -542,6 +549,8 @@
       </div>
     </div>
 
+
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -556,6 +565,7 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
+
 
   </body>
 
