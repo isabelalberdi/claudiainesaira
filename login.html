@@ -62,7 +62,7 @@
             <form method="post" id="loginForm">
             	<label>Enter the Pass Phrase</label>
             	<input type="password" name="pf" id="pf"><br>
-            	<a class="btn btn-primary btn-md js-scroll-trigger">Login</a>
+            	<a id="loginButton" class="btn btn-primary btn-md js-scroll-trigger">Login</a>
             </form>
           </div>
           
@@ -137,6 +137,11 @@
   				alert('Error: wrong pass phrase');
   			}
   		});
+
+      $("#loginButton").click(function(event){
+        event.preventDefault();
+        $("#loginForm").submit();
+      });
 	  });   
 
 </script>
