@@ -58,11 +58,11 @@
         <h2 class="text-center text-uppercase text-secondary mb-0">Login</h2>
         <br>
         <div class="row">
-          <div class="col-md-6 col-lg-4">
+          <div class="container text-center">
             <form method="post" id="loginForm">
             	<label>Enter the Pass Phrase</label>
-            	<input type="password" name="pf" id="pf">
-            	<button>Login</button>
+            	<input type="password" name="pf" id="pf"><br>
+            	<a class="btn btn-primary btn-md js-scroll-trigger">Login</a>
             </form>
           </div>
           
@@ -137,7 +137,6 @@
   				alert('Error: wrong pass phrase');
   			}
   		});
-  		//console.log(SHA256.hex('please let me in Claudia')); 
 	  });   
 
 </script>
