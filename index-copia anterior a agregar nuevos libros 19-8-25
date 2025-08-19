@@ -1,0 +1,1388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <script src="js/hashes.min.js"></script>
+    <script src="js/pfcheck.js"></script>
+    <script>
+      
+      if (!pfcheck()){
+          window.location.href="login.html";
+        }   
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Portfolio">
+    <meta name="author" content="Claudia Aira">
+
+    <title>Claudia Inés Aira</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet"> 
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/freelancer.min.css" rel="stylesheet">
+    <link href="css/freelancerca.css" rel="stylesheet">
+    <link href="css/full-slider.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Claudia Inés Aira</a>
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item mx-0 mx-lg-1">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header -->
+  <header class="masthead bg-primary text-center">
+  <div class="container text-center my-auto">
+        <h1 class="mb-1">Claudia Inés Aira</h1>
+        <h3 class="mb-5"><br>
+          ESCRITORA - ILUSTRADORA<br>
+        </h3>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#portfolio">Find Out More</a>
+      </div>
+      <div class="overlay"></div>
+
+
+
+ <!-- slide fallido      
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <!-- Slide One - Set the background image for this slide in the line below 
+          <div class="carousel-item active" style="background-image: url('img/bg-masthead-1.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Haikus Revelados</h3>
+              <p>Ilustración</p>
+            </div>
+          </div>
+          <!-- Slide Two - Set the background image for this slide in the line below 
+          <div class="carousel-item" style="background-image: url('img/bg-masthead-2.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Serie People</h3>
+              <p>Ilustración de Tokio</p>
+            </div>
+          </div>
+          <!-- Slide Three - Set the background image for this slide in the line below 
+          <div class="carousel-item" style="background-image: url('img/bg-masthead-3.jpg')">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Serie Segundo</h3>
+              <p>Ilustración de Segundo</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+-->
+    
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+        <br>
+        <div class="row">
+          <h3 class="col-12">
+            Serie Segundo<br>
+            <a href="https://www.instagram.com/segundo.laserie/"><h4><i class="fab fa-instagram"></i> @segundo.laserie</a></h4>
+            <a href="https://www.facebook.com/profile.php?id=100072158832196"><h4><i class="fab fa-facebook"></i> segundo La Serie</a></h4>
+          </h3>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-19">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/segundo-yelplaneta-1.jpg" alt="Segundo y el Planeta">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-18">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/segundo-ylaguerra-1.jpg" alt="Segundo y la guerra">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-11">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/segundo-pandemia-1.jpg" alt="Segundo y la Pandemia">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-12">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/segundo-pan-Act-1.jpg" alt="segundo y la Pandemia Libro de Actividades">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/segundo-flia-1.jpg" alt="segundo y su familia">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-13">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/segundo-flia-Act-1.jpg" alt="segundo y su familia Libro de Actividades">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/segundo-amigos-1.jpg" alt="segundo y sus amigos">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-14">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/segundo-ami-Act-1.jpg" alt="segundo y sus amigos Libro de Actividades">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-10">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/segundo-humanos-1.jpg" alt="Segundo y sus Humanos">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-15">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/segundo-hum-Act-1.jpg" alt="segundo y sus humanos Libro de Actividades">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/segundo-1.jpg" alt="segundo y los números">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-16">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/segundoAct-num2.png" alt="segundo y los números libro de actividades">
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-4">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/segundo-estaciones-1.jpg" alt="Las cuatro estaciones de Segundo">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-17">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/segundoAct-4est2.png" alt="Las cuatro estaciones de Segundo libro de actividades">
+            </a>
+          </div>
+        </div>
+        
+        <div class="row">
+          <h3 class="col-12">
+            Serie People
+          </h3>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-6">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/tokio-1.jpg" alt="tokio people">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-7">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/la-1.jpg" alt="LA people">
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <h3 class="col-12">
+            Otras Publicaciones
+          </h3>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-8">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/socias-1.jpg" alt="Socias">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-9">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/ella-vendra-1.jpg" alt="Ella vendrá">
+            </a>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-5">
+              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
+                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
+                  <i class="fa fa-search-plus fa-3x"></i>
+                </div>
+              </div>
+              <img class="img-fluid" src="img/portfolio/haiku-1.jpg" alt="haikus revelados">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- booktrailers Section -->
+    <section class="booktrailers" id="booktrailers">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Booktrailers</h2>
+        <br>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="embed-responsive embed-responsive-16by9">
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/mfpXiZeuEac" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="embed-responsive embed-responsive-16by9">
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/TnBYVPcVLf0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="row">&nbsp;</div>  
+        <div class="row">
+          <div class="col-md-6">
+            <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/KMA5OUU9ZgI" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+        <div class="col-md-6">
+          <div class="embed-responsive embed-responsive-16by9">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Gs45YVbQwro" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+        <div class="row">&nbsp;</div>  
+        <div class="row">
+          <div class="col-md-6">
+            <div class="embed-responsive embed-responsive-16by9">
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/e8ErbXgKdeE" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+          
+        <div class="col-md-6">
+            <div class="embed-responsive embed-responsive-16by9">
+               <iframe width="560" height="315" src="https://www.youtube.com/embed/lv25mLCCGS8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            </div>
+          </div>
+
+        </div>
+        <div class="row">&nbsp;</div> 
+        <div class="row">
+            <div class="col-md-6">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/UmNPi5Yvfks" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+             </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/g10HgxdpQCo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+             </div>
+            </div>
+        </div>
+        <div class="row">&nbsp;</div> 
+        <div class="row">
+            <div class="col-md-6">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/YvIJ1qiQe7U" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+             </div>
+            </div>
+
+        </div>
+
+    </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="bg-primary text-white mb-0" id="about">
+      <div class="container">
+
+        <h2 class="text-center text-uppercase text-white"><img src="img/claudia.jpg" alt="Claudia" class="rounded-circle"><br><br>About Claudia</h2>
+        <br>
+        <div class="row">
+          <div class="col-lg-4 ml-auto">
+            <p class="lead">Nací en Mar del Plata, frente al mar y ahora vivo en una casa con jardín en Vicente López, Buenos Aires, Argentina. Tengo dos hijas, Agostina y Solana. Vivo con mi familia y mis dos perros, Segundo e India y tengo mi taller en mi casa.<br>
+            Desde chica dibujé, pinté y también inventé historias. De grande estudié Psicología y Psicopedagogía y trabajé con chicos y adultos en mi consultorio. También estudié pintura, dibujo, historieta, grabado, fotografía, arte, teatro y canto. Pero nunca dejé de dibujar, pintar y contar historias. Como artista visual hice muchas muestras en mi vida, en mi país y en el exterior, gané algunos premios y algunos museos tienen obra mía.<br>
+            Me gusta la acuarela, el acrílico, el óleo, la tempera, el grabado, el collage, el dibujo. Las uso a todas, dependiendo de que quiera expresar, elijo la que me guste en cada momento. También me animo un poco con el arte digital.<br>
+            A veces escribo e ilustro para chicos y otras escribo e ilustro poesía para jóvenes y adultos. También soy autora de libros álbum para chicos y adultos.
+            </p>
+          </div>
+          <div class="col-lg-4 mr-auto">
+            <p class="lead"><em>I was born in Mar del Plata, by the sea and now I live in a house with a garden in Vicente Lopez, Buenos Aires, Argentina. I have two daughters: Agostina and Solana. I live with my family and my two dogs, Segundo and India and I have my atelier at home.<br>
+            Since I was a kid I drew, painted and invented stories. When I grew up I studied Psychology and worked with children and adults in my office. I also studied painting, drawing, engraving, photography, art, drama and singing. But I never stopped drawing, painting and writing. As a visual artist, I participated in many exhibitions, Art Fairs, contests in my country and overseas, I won some prices and some museums have my works.<br>
+            I like gouache, water color, engraving, oil, collage, drawing. I choose to use the one that suits best what I want to express at the moment. I also use a bit of digital art.
+            Sometimes I write and illustrate stories for children and other times I write and illustrate poetry for youngsters and adults. I’m also an author of Picture Books for kids and adults.</em>
+            </p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Contact Section
+    <section id="contact">
+      <div class="container">
+        <h2 class="text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+        <hr class="star-dark mb-5">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+            <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->
+          <!--  <form name="sentMessage" id="contactForm" novalidate="novalidate">
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Name</label>
+                  <input class="form-control" id="name" type="text" placeholder="Name" required="required" data-validation-required-message="Please enter your name.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Email Address</label>
+                  <input class="form-control" id="email" type="email" placeholder="Email Address" required="required" data-validation-required-message="Please enter your email address.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Phone Number</label>
+                  <input class="form-control" id="phone" type="tel" placeholder="Phone Number" required="required" data-validation-required-message="Please enter your phone number.">
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group floating-label-form-group controls mb-0 pb-2">
+                  <label>Message</label>
+                  <textarea class="form-control" id="message" rows="5" placeholder="Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <br>
+              <div id="success"></div>
+              <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-xl" id="sendMessageButton">Send</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- Footer -->
+    <footer class="footer text-center" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 mb-5 mb-lg-0">  
+            <h4 class="text-uppercase mb-4"><i class="fas fa-map-marker-alt"></i><br>Location</h4>
+            <p class="lead mb-0">Eduardo Madero 1390, B1638AVZ
+              <br>Vicente López, Bs As, Argentina</p>
+          </div>
+          <div class="col-md-4 mb-5 mb-lg-0">  
+            <h4 class="text-uppercase mb-4"><i class="fas fa-envelope-square"></i><br>E-mail</h4>
+            <a href="mailto:claudiainesaira@gmail.com">claudiainesaira@gmail.com</a>
+          </div>
+          <div class="col-md-4">
+            <h4 class="text-uppercase mb-4"><i class="fas fa-mobile-alt"></i><br>tel</h4>
+            <p class="lead mb-0">(+54 9) 11 5404-3532
+              </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="copyright py-4 text-center text-white">
+      <div class="container">
+        <small>Copyright &copy; claudiainesaira 2018</small>
+      </div>
+    </div>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-to-top d-lg-none position-fixed ">
+      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+        <i class="fa fa-chevron-up"></i>
+      </a>
+    </div>
+
+    <!-- Portfolio Modals -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Segundo y los números</h2>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/segundo-1.jpg" alt="Segundo y los números tapa">
+              <h2 class="text-secondary mb-0">Segundo y los números</h2>
+              <p class="mb-5" style="text-align: left">“Segundo y los números” cuenta las travesuras de un cachorro Golden Retriever. <br>
+              ¡Números, cantidades, y cosas aparecen y se multiplican! O desaparecen… Sorpresa, ternura y humor se mezclan en este libro para los más chicos. </p>
+              <em><h2 class="text-secondary mb-0">Segundo & the Numbers</h2>
+              <p class="mb-5" style="text-align: left">Segundo & the Numbers is about the mischiefs of a Golden Retriever puppy. <br>
+                Numbers, Quantities and things appear and they multiply! Or disappear… Amazement, tenderness and humor are mingled in this book for young readers.</p></em>
+              
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-2.jpg" alt="colofón">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-3.jpg" alt="Hola soy Segundo">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-4.jpg" alt="Ellos antes tenían una maceta">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-5.jpg" alt="maceta">
+              <h2 class="text-secondary mb-0">La serie de Segundo</h2>
+              <p class="mb-5" style="text-align: left">Segundo es una colección de ocho libros para chicos hasta nueve años de edad. La serie tiene como protagonista a un cachorro de Golden Retriever . Los libros que componen la
+                colección son: “Segundo y los números”, “Las cuatro estaciones de Segundo”, “Segundo y sus amigos”, “Segundo y su familia” , ”Segundo y sus Humanos” , “Segundo y la Pandemia”, “Segundo y la Guerra” y “Segundo y el Planeta”. Todas las historias están contadas desde el punto de vista que el cachorro tiene del mundo que lo rodea. Esto se
+                muestra en el texto, así como también en la manera en la cual están ilustradas las escenas.
+                Las historias son graciosas y conmovedoras. Todos los libros de la serie contienen una foto real de Segundo en el colofón.<br>
+                Los libros pueden ser leídos en casa o también ser usados con propósitos educativos ya que abarcan temas diversos como cantidades, numeración, similitudes y diferencias, las cuatro estaciones, relaciones familiares, cuidado de la salud, la amistad, la adopción , la pandemia, la guerra y el cambio climático. Todos los libros tienen una versión en español y en inglés.
+                También cada libro tiene un libro de actividades recreativas y educativas.<br>
+                Los libros se encuentran en formato papel y en formato digital.
+              </p>
+              <em><h2 class="text-secondary mb-0">Segundo Series</h2>
+              <p class="mb-5" style="text-align: left">Segundo is a book series about a Golden Retreiver; a puppy who happens to be my own.
+                There are eight books in this series: “Segundo &amp; Numbers”, “Segundo’s Four Seasons”, “Segundo &amp; Friends”, “Segundo &amp; Family” , “Segundo &amp; his Humans” , “Segundo &amp; the Pandemic” ,”Segundo &amp; the War” and “Segundo &amp; the Planet”. All books are based on the observation of a dog´s world in everyday and real situations. All stories are told from his point of view of the world. This is shown in the plot and also in the way that situations are pictured. Stories are funny and heart touching. At the end, all the books contain a real picture of the puppy. They can be used for independent reading or sharing at story time. They can even be used for educational purposes as they cover different subjects such as: Counting, quantities, numbers, the four seasons, similarities and differences, description, friendship, health care, family relationships, adoption, the Pandemic, the War and global warming, as well as learning to love and care for others.<br>
+                All books have an Activity Book in which children can find entertainment and learning activities. The age group can go from one, to nine years old. All books have a Spanish and an English version.<br>
+                You can find all books in digital format as well.
+              </p></em>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Segundo y su familia</h2>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/segundo-flia-1.jpg" alt="Segundo y su familia tapa">
+
+              <h2 class="text-secondary mb-0">Segundo y su familia</h2>
+              <p class="mb-5" style="text-align: left">Segundo nos presenta a toda su familia, no solo la de origen sino también la ensamblada. El libro plantea temas como la adopción, la aceptación, el cuidado de los otros y la felicidad de compartir en familia.</p>
+              <em><h2 class="text-secondary mb-0">Segundo & Family</h2>
+              <p class="mb-5" style="text-align: left">Segundo introduces us to all his family, not only his family of origin, but also his assembled family as well. The book raises issues such as adoption, acceptance, caring for others and the happiness of sharing within the family.</p></em>
+
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-flia-2.jpg" alt="mis humanos">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-flia-3.jpg" alt="Ambar me cuida">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-flia-4.jpg" alt="Philips scolds me">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-flia-5.jpg" alt="y ahora somos más">
+              <h2 class="text-secondary mb-0">La serie de Segundo</h2>
+              <p class="mb-5" style="text-align: left">Segundo es una colección de ocho libros para chicos hasta nueve años de edad. La serie tiene como protagonista a un cachorro de Golden Retriever . Los libros que componen la
+                colección son: “Segundo y los números”, “Las cuatro estaciones de Segundo”, “Segundo y sus amigos”, “Segundo y su familia” , ”Segundo y sus Humanos” , “Segundo y la Pandemia”, “Segundo y la Guerra” y “Segundo y el Planeta”. Todas las historias están contadas desde el punto de vista que el cachorro tiene del mundo que lo rodea. Esto se
+                muestra en el texto, así como también en la manera en la cual están ilustradas las escenas.
+                Las historias son graciosas y conmovedoras. Todos los libros de la serie contienen una foto real de Segundo en el colofón.<br>
+                Los libros pueden ser leídos en casa o también ser usados con propósitos educativos ya que abarcan temas diversos como cantidades, numeración, similitudes y diferencias, las cuatro estaciones, relaciones familiares, cuidado de la salud, la amistad, la adopción , la pandemia, la guerra y el cambio climático. Todos los libros tienen una versión en español y en inglés.
+                También cada libro tiene un libro de actividades recreativas y educativas.<br>
+                Los libros se encuentran en formato papel y en formato digital.
+              </p>
+              <em><h2 class="text-secondary mb-0">Segundo Series</h2>
+              <p class="mb-5" style="text-align: left">Segundo is a book series about a Golden Retreiver; a puppy who happens to be my own.
+                There are eight books in this series: “Segundo &amp; Numbers”, “Segundo’s Four Seasons”, “Segundo &amp; Friends”, “Segundo &amp; Family” , “Segundo &amp; his Humans” , “Segundo &amp; the Pandemic” ,”Segundo &amp; the War” and “Segundo &amp; the Planet”. All books are based on the observation of a dog´s world in everyday and real situations. All stories are told from his point of view of the world. This is shown in the plot and also in the way that situations are pictured. Stories are funny and heart touching. At the end, all the books contain a real picture of the puppy. They can be used for independent reading or sharing at story time. They can even be used for educational purposes as they cover different subjects such as: Counting, quantities, numbers, the four seasons, similarities and differences, description, friendship, health care, family relationships, adoption, the Pandemic, the War and global warming, as well as learning to love and care for others.<br>
+                All books have an Activity Book in which children can find entertainment and learning activities. The age group can go from one, to nine years old. All books have a Spanish and an English version.<br>
+                You can find all books in digital format as well.
+              </p></em>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Segundo y sus amigos</h2>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/segundo-amigos-1.jpg" alt="Segundo y sus amigos tapa">
+              <h2 class="text-secondary mb-0">Segundo y sus amigos</h2>
+              <p class="mb-5" style="text-align: left">Segundo tiene muchos amigos. En este libro nos los presenta y cuenta las aventuras que tienen juntos.<br> Tambien nos muestra y describe cómo es cada uno. Y nos enseña que lo mejor es estar juntos.</p>
+              <em><h2 class="text-secondary mb-0">Segundo & Friends</h2>
+              <p class="mb-5" style="text-align: left">Segundo has lots of Friends. In this book he introduces them and tells us about their adventures together.<br> He also describes them and teaches us that the best thing in life is being together with your loved ones.</p></em>
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-amigos-2.jpg" alt="mi amigo Rocco">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-amigos-3.jpg" alt="mi mejor amiga Sama">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-amigos-4.jpg" alt="enfrento cualquier peligro">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-amigos-5.jpg" alt="dónde está Ulises">
+              <h2 class="text-secondary mb-0">La serie de Segundo</h2>
+              <p class="mb-5" style="text-align: left">Segundo es una colección de ocho libros para chicos hasta nueve años de edad. La serie tiene como protagonista a un cachorro de Golden Retriever . Los libros que componen la
+                colección son: “Segundo y los números”, “Las cuatro estaciones de Segundo”, “Segundo y sus amigos”, “Segundo y su familia” , ”Segundo y sus Humanos” , “Segundo y la Pandemia”, “Segundo y la Guerra” y “Segundo y el Planeta”. Todas las historias están contadas desde el punto de vista que el cachorro tiene del mundo que lo rodea. Esto se
+                muestra en el texto, así como también en la manera en la cual están ilustradas las escenas.
+                Las historias son graciosas y conmovedoras. Todos los libros de la serie contienen una foto real de Segundo en el colofón.<br>
+                Los libros pueden ser leídos en casa o también ser usados con propósitos educativos ya que abarcan temas diversos como cantidades, numeración, similitudes y diferencias, las cuatro estaciones, relaciones familiares, cuidado de la salud, la amistad, la adopción , la pandemia, la guerra y el cambio climático. Todos los libros tienen una versión en español y en inglés.
+                También cada libro tiene un libro de actividades recreativas y educativas.<br>
+                Los libros se encuentran en formato papel y en formato digital.
+              </p>
+              <em><h2 class="text-secondary mb-0">Segundo Series</h2>
+              <p class="mb-5" style="text-align: left">Segundo is a book series about a Golden Retreiver; a puppy who happens to be my own.
+                There are eight books in this series: “Segundo &amp; Numbers”, “Segundo’s Four Seasons”, “Segundo &amp; Friends”, “Segundo &amp; Family” , “Segundo &amp; his Humans” , “Segundo &amp; the Pandemic” ,”Segundo &amp; the War” and “Segundo &amp; the Planet”. All books are based on the observation of a dog´s world in everyday and real situations. All stories are told from his point of view of the world. This is shown in the plot and also in the way that situations are pictured. Stories are funny and heart touching. At the end, all the books contain a real picture of the puppy. They can be used for independent reading or sharing at story time. They can even be used for educational purposes as they cover different subjects such as: Counting, quantities, numbers, the four seasons, similarities and differences, description, friendship, health care, family relationships, adoption, the Pandemic, the War and global warming, as well as learning to love and care for others.<br>
+                All books have an Activity Book in which children can find entertainment and learning activities. The age group can go from one, to nine years old. All books have a Spanish and an English version.<br>
+                You can find all books in digital format as well.
+              </p></em>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-4">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Las cuatro estaciones de Segundo</h2>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/segundo-estaciones-1.jpg" alt="Las cuatro estaciones de Segundo tapa">
+              <h2 class="text-secondary mb-0">Las cuatro estaciones de Segundo</h2>
+              <p class="mb-5" style="text-align: left">Todas las estaciones del año tienen algo para ofrecer.  Segundo es juguetón y en este libro aprende a disfrutar lo mejor de cada una.</p>
+              <em><h2 class="text-secondary mb-0">Segundo’s Four Seasons</h2>
+              <p class="mb-5" style="text-align: left">Segundo is naughty and all year round he makes a lot of mess. In his book our dog tells us about how to enjoy the four seasons and get the best out of them.</p></em>
+
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-estaciones-2.jpg" alt="colofón">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-estaciones-3.jpg" alt="me gusta comer">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-estaciones-4.jpg" alt="me gusta esconderme">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-estaciones-5.jpg" alt="me gusta subirme">
+              <h2 class="text-secondary mb-0">La serie de Segundo</h2>
+              <p class="mb-5" style="text-align: left">Segundo es una colección de ocho libros para chicos hasta nueve años de edad. La serie tiene como protagonista a un cachorro de Golden Retriever . Los libros que componen la
+                colección son: “Segundo y los números”, “Las cuatro estaciones de Segundo”, “Segundo y sus amigos”, “Segundo y su familia” , ”Segundo y sus Humanos” , “Segundo y la Pandemia”, “Segundo y la Guerra” y “Segundo y el Planeta”. Todas las historias están contadas desde el punto de vista que el cachorro tiene del mundo que lo rodea. Esto se
+                muestra en el texto, así como también en la manera en la cual están ilustradas las escenas.
+                Las historias son graciosas y conmovedoras. Todos los libros de la serie contienen una foto real de Segundo en el colofón.<br>
+                Los libros pueden ser leídos en casa o también ser usados con propósitos educativos ya que abarcan temas diversos como cantidades, numeración, similitudes y diferencias, las cuatro estaciones, relaciones familiares, cuidado de la salud, la amistad, la adopción , la pandemia, la guerra y el cambio climático. Todos los libros tienen una versión en español y en inglés.
+                También cada libro tiene un libro de actividades recreativas y educativas.<br>
+                Los libros se encuentran en formato papel y en formato digital.
+              </p>
+              <em><h2 class="text-secondary mb-0">Segundo Series</h2>
+              <p class="mb-5" style="text-align: left">Segundo is a book series about a Golden Retreiver; a puppy who happens to be my own.
+                There are eight books in this series: “Segundo &amp; Numbers”, “Segundo’s Four Seasons”, “Segundo &amp; Friends”, “Segundo &amp; Family” , “Segundo &amp; his Humans” , “Segundo &amp; the Pandemic” ,”Segundo &amp; the War” and “Segundo &amp; the Planet”. All books are based on the observation of a dog´s world in everyday and real situations. All stories are told from his point of view of the world. This is shown in the plot and also in the way that situations are pictured. Stories are funny and heart touching. At the end, all the books contain a real picture of the puppy. They can be used for independent reading or sharing at story time. They can even be used for educational purposes as they cover different subjects such as: Counting, quantities, numbers, the four seasons, similarities and differences, description, friendship, health care, family relationships, adoption, the Pandemic, the War and global warming, as well as learning to love and care for others.<br>
+                All books have an Activity Book in which children can find entertainment and learning activities. The age group can go from one, to nine years old. All books have a Spanish and an English version.<br>
+                You can find all books in digital format as well.
+              </p></em>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-5">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Haikus revelados</h2>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/haiku-1.jpg" alt="Haikus revelados tapa">
+              <p class="mb-5" style="text-align: left">Libro álbum de poesía breve a la manera del Haiku japonés. Los poemas incluyen referencias climáticas o paisajísticas, así como también describen climas y paisajes internos, referidos a estados de ánimo o a procesos reflexivos. Los textos se escriben con sellos sobre una hoja pentagramada a la manera de notas musicales y como referencia a la musicalidad del lenguaje. Las ilustraciones acompañan y complementan a las palabras.</p>
+              <em><p class="mb-5" style="text-align: left">Picture book of short poetry in the manner of Japanese Haiku. The poems include climatic or landscape references, as well as they describe climates or internal landscapes, referred to states of mind or reflective processes. The texts are written with stamps on a pentagrammed sheet as if the letters represent musical notes. This is a reference to the musicality of the language. The illustrations accompany and complement the words.</p></em>
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/haiku-2.jpg" alt="mar que se trago">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/haiku-3.jpg" alt="encontrar la mañana">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/haiku-4.jpg" alt="piñas y rimas">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/haiku-5.jpg" alt="brillante turquesa">
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-6">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Tokyo People</h2>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/tokio-1.jpg" alt="tokio people tapa">
+              
+              <p class="mb-5" style="text-align: left">Tokyo es vertiginosa, intensa y a la vez capaz de revelarnos su lado ancestral, sabio y calmo.<br>Su gente y sus actitudes demuestran esta dicotomía. Los dibujos están basados en las imágenes capturadas por la cámara, los textos, en lo que ellas me transmitieron.</p>
+
+              <em><p class="mb-5" style="text-align: left">Tokyo is dizzying, intense and at the same time capable of revealing its ancestral, wise and calm side. Its people and their attitudes prove it. The drawings are based on the images captured by the camera, the texts, on what they have conveyed to me.</p></em>
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/tokio-2.jpg" alt="Guishoda">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/tokio-3.jpg" alt="Guinsa">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/tokio-4.jpg" alt="Takadanobaba">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/tokio-5.jpg" alt="Kudanshita">
+              
+              <h2 class="text-secondary text-uppercase mb-0">La serie People</h2>
+              <p class="mb-5" style="text-align: left">
+              La gente de cada ciudad tiene sus particularidades y me llama la atención por distintas razones. En este mundo globalizado donde las ciudades y las personas se parecen cada vez más, esta serie busca mostrar desde una mirada artística y poética esas sutiles pero necesarias diferencias que le dan carácter a cada pueblo.</p>
+              <em><h2 class="text-secondary text-uppercase mb-0">People Series</h2>
+              <p class="mb-5" style="text-align: left">
+                The people of each city have their particularities and these catch my attention for different reassons.<br>
+                In this globalized world, where cities and people are increasinglysimilar, this series seeks to show from an artistic and poetic point of view, those subtle but necessary differences that determine the character of each community.</p></em>
+
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 7 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-7">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">L.A. People</h2>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/la-1.jpg" alt="la people tapa">
+              
+              <p class="mb-5" style="text-align: left">Los Angeles es descontraturada, artistica y divertida. El arte, el deporte y la fantasía son parte de su escencia.</p>
+
+              <em><p class="mb-5" style="text-align: left">L. A. is easy going, artistic and fun. Art, sports and fantasy are part of its essence.</p></em>
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/la-2.jpg" alt="Century City">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/la-3.jpg" alt="Thai Town">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/la-4.jpg" alt="Dolby Theatre">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/la-5.jpg" alt="DownTown Santa Monica">
+              
+              <h2 class="text-secondary text-uppercase mb-0">La serie People</h2>
+              <p class="mb-5" style="text-align: left">
+              La gente de cada ciudad tiene sus particularidades y me llama la atención por distintas razones. En este mundo globalizado donde las ciudades y las personas se parecen cada vez más, esta serie busca mostrar desde una mirada artística y poética esas sutiles pero necesarias diferencias que le dan carácter a cada pueblo.</p>
+              <em><h2 class="text-secondary text-uppercase mb-0">People Series</h2>
+              <p class="mb-5" style="text-align: left">
+              The people of each city have their particularities and these catch my attention for different reasons.<br>
+              In this globalized world, where cities and people are increasingly similar, this series seek to show from an artistic and poetic point of view, those subtle but necessary differences that give each community its character.</p></em>
+
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 8 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-8">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Socias</h2>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/socias-1.jpg" alt="socias">
+              
+              <p class="mb-5" style="text-align: left"> Hablarle a esa niña que llevo dentro. Recordarla. Darme cuenta de que ella esta ahí. Somos socias en este camino de existir.</p>
+
+              <em><h2 class="text-secondary mb-0">Partners</h2>
+              <p class="mb-5" style="text-align: left">Talking to this little  girl who lives inside me. She is always in my mind. We are partners for life.</p></em>
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/socias-2.jpg" alt="caracoles">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/socias-3.jpg" alt="bailarina">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/socias-4.jpg" alt="mucho que hacer">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/socias-5.jpg" alt="retarte">
+
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Portfolio Modal 9 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-9">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Ella vendrá</h2>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/ella-vendra-1.jpg" alt="ella vendrá">
+              
+              <p class="mb-5" style="text-align: left">Mientras los sentidos se despliegan, el alma encuentra su lugar. Ella espera. </p>
+
+              <em><h2 class="text-secondary mb-0">She will come</h2>
+              <p class="mb-5" style="text-align: left">As the senses unfold, the soul finds its place. She awaits.</p></em>
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/ella-vendra-2.jpg" alt="camino, sonrío">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/ella-vendra-3.jpg" alt="escucho">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/ella-vendra-4.jpg" alt="ladridos">
+
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 10 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-10">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Segundo y sus humanos</h2>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/segundo-humanos-1.jpg" alt="segundo y sus humanos">
+              
+              <p class="mb-5" style="text-align: left">Segundo nos cuenta cómo lo cuidan y lo miman sus humanos: su familia, su veterinario, su paseador… todos están pendientes de él y sus necesidades. Aprendemos que los cuidados, la educación y el cariño son muy importantes para nuestros amigos peludos.</p>
+
+              <em><h2 class="text-secondary mb-0">Segundo and his Humans</h2>
+              <p class="mb-5" style="text-align: left">Segundo tells us how his humans look after him and pamper him as well: his family, his vet, his dog walker…everybody is aware of his needs. We learn that caring, education and love are very important to our furry friends.</p></em>
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-humanos-2.jpg" alt="me bañan">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-humanos-3.jpg" alt="mi doctor">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-humanos-4.jpg" alt="me aman">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-humanos-5.jpg" alt="lo mejor de todo">
+              <h2 class="text-secondary mb-0">La serie de Segundo</h2>
+              <p class="mb-5" style="text-align: left">Segundo es una colección de ocho libros para chicos hasta nueve años de edad. La serie tiene como protagonista a un cachorro de Golden Retriever . Los libros que componen la
+                colección son: “Segundo y los números”, “Las cuatro estaciones de Segundo”, “Segundo y sus amigos”, “Segundo y su familia” , ”Segundo y sus Humanos” , “Segundo y la Pandemia”, “Segundo y la Guerra” y “Segundo y el Planeta”. Todas las historias están contadas desde el punto de vista que el cachorro tiene del mundo que lo rodea. Esto se
+                muestra en el texto, así como también en la manera en la cual están ilustradas las escenas.
+                Las historias son graciosas y conmovedoras. Todos los libros de la serie contienen una foto real de Segundo en el colofón.<br>
+                Los libros pueden ser leídos en casa o también ser usados con propósitos educativos ya que abarcan temas diversos como cantidades, numeración, similitudes y diferencias, las cuatro estaciones, relaciones familiares, cuidado de la salud, la amistad, la adopción , la pandemia, la guerra y el cambio climático. Todos los libros tienen una versión en español y en inglés.
+                También cada libro tiene un libro de actividades recreativas y educativas.<br>
+                Los libros se encuentran en formato papel y en formato digital.
+              </p>
+              <em><h2 class="text-secondary mb-0">Segundo Series</h2>
+              <p class="mb-5" style="text-align: left">Segundo is a book series about a Golden Retreiver; a puppy who happens to be my own.
+                There are eight books in this series: “Segundo &amp; Numbers”, “Segundo’s Four Seasons”, “Segundo &amp; Friends”, “Segundo &amp; Family” , “Segundo &amp; his Humans” , “Segundo &amp; the Pandemic” ,”Segundo &amp; the War” and “Segundo &amp; the Planet”. All books are based on the observation of a dog´s world in everyday and real situations. All stories are told from his point of view of the world. This is shown in the plot and also in the way that situations are pictured. Stories are funny and heart touching. At the end, all the books contain a real picture of the puppy. They can be used for independent reading or sharing at story time. They can even be used for educational purposes as they cover different subjects such as: Counting, quantities, numbers, the four seasons, similarities and differences, description, friendship, health care, family relationships, adoption, the Pandemic, the War and global warming, as well as learning to love and care for others.<br>
+                All books have an Activity Book in which children can find entertainment and learning activities. The age group can go from one, to nine years old. All books have a Spanish and an English version.<br>
+                You can find all books in digital format as well.
+              </p></em>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 11 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-11">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Segundo y la Pandemia</h2>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/segundo-pandemia-1.jpg" alt="segundo y la Pandemia">
+              
+              <p class="mb-5" style="text-align: left">Llegó la Pandemia y el mundo de Segundo cambió, y también el de sus Humanos. Segundo nos muestra cómo se va dando cuenta de lo que les pasa a sus Humanos y ¡de cuánto los quiere!.</p>
+
+              <em><h2 class="text-secondary mb-0">Segundo & the Pandemic</h2>
+              <p class="mb-5" style="text-align: left">The Pandemic arrived and Segundo’s world changed, and so did  his Humans’. Segundo shows us how he realizes what happens to his Humans and how much he loves them!</p></em>
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-pandemia-2.jpg" alt="yo pensé que divertido">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-pandemia-3.jpg" alt="todos los humanos">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-pandemia-4.jpg" alt="mi humano mayor">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-pandemia-5.jpg" alt="mirando las noticias">
+             <h2 class="text-secondary mb-0">La serie de Segundo</h2>
+              <p class="mb-5" style="text-align: left">Segundo es una colección de ocho libros para chicos hasta nueve años de edad. La serie tiene como protagonista a un cachorro de Golden Retriever . Los libros que componen la
+                colección son: “Segundo y los números”, “Las cuatro estaciones de Segundo”, “Segundo y sus amigos”, “Segundo y su familia” , ”Segundo y sus Humanos” , “Segundo y la Pandemia”, “Segundo y la Guerra” y “Segundo y el Planeta”. Todas las historias están contadas desde el punto de vista que el cachorro tiene del mundo que lo rodea. Esto se
+                muestra en el texto, así como también en la manera en la cual están ilustradas las escenas.
+                Las historias son graciosas y conmovedoras. Todos los libros de la serie contienen una foto real de Segundo en el colofón.<br>
+                Los libros pueden ser leídos en casa o también ser usados con propósitos educativos ya que abarcan temas diversos como cantidades, numeración, similitudes y diferencias, las cuatro estaciones, relaciones familiares, cuidado de la salud, la amistad, la adopción , la pandemia, la guerra y el cambio climático. Todos los libros tienen una versión en español y en inglés.
+                También cada libro tiene un libro de actividades recreativas y educativas.<br>
+                Los libros se encuentran en formato papel y en formato digital.
+              </p>
+              <em><h2 class="text-secondary mb-0">Segundo Series</h2>
+              <p class="mb-5" style="text-align: left">Segundo is a book series about a Golden Retreiver; a puppy who happens to be my own.
+                There are eight books in this series: “Segundo &amp; Numbers”, “Segundo’s Four Seasons”, “Segundo &amp; Friends”, “Segundo &amp; Family” , “Segundo &amp; his Humans” , “Segundo &amp; the Pandemic” ,”Segundo &amp; the War” and “Segundo &amp; the Planet”. All books are based on the observation of a dog´s world in everyday and real situations. All stories are told from his point of view of the world. This is shown in the plot and also in the way that situations are pictured. Stories are funny and heart touching. At the end, all the books contain a real picture of the puppy. They can be used for independent reading or sharing at story time. They can even be used for educational purposes as they cover different subjects such as: Counting, quantities, numbers, the four seasons, similarities and differences, description, friendship, health care, family relationships, adoption, the Pandemic, the War and global warming, as well as learning to love and care for others.<br>
+                All books have an Activity Book in which children can find entertainment and learning activities. The age group can go from one, to nine years old. All books have a Spanish and an English version.<br>
+                You can find all books in digital format as well.
+              </p></em>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 12 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-12">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Segundo y la Pandemia</h2><br><h4>Libro de Actividades</h4>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/segundo-pan-Act-1.jpg" alt="segundo y la Pandemia">
+              
+              <p class="mb-5" style="text-align: left">
+                Si te gustó Segundo y la Pandemia vas a querer seguir compartiendo con él. 
+                ¡Este libro está pensado para vos! Vas a encontrar Actividades para jugar solo o en equipos, para dibujar y pintar, para descubrir, para aprender, para completar, para pensar y conversar.
+                ¡Seguro te vas a divertir con estas actividades!
+              </p>
+
+              <em><h2 class="text-secondary mb-0">Segundo & the Pandemic <br><h4>Activity Book</h4></h2>
+              <p class="mb-5" style="text-align: left">If you liked Segundo & the Pandemic you'll want to keep on sharing with them!
+                This book was meant for you. You’ll find activities to draw and paint, to play alone or in groups, to learn, to think and chat. You’ll surely have fun with these activities!
+              </p></em>
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-pan-Act-2.jpg" alt="actividades">
+              
+              <h2 class="text-secondary mb-0">Segundo La Serie </h2><br><h4>Libro de Actividades</h4>
+              <p class="mb-5" style="text-align: left">Estos libros están pensados para que los chicos puedan jugar, divertirse y aprender con la
+                colección Segundo La Serie.
+                Las actividades están diseñadas para usarse tanto en la escuela como en casa.
+                Las instrucciones son sencillas y los personajes y el vocabulario son los mismos de las
+                historias.<br>
+                La intención de estos libros de actividades es que los chicos puedan practicar habilidades
+                y utilizar recursos del contexto escolar en un entorno divertido.
+                ¡ Aprender jugando es posible con Segundo!
+              </p>
+              <em><h2 class="text-secondary mb-0">Segundo The Series</h2><br><h4>Activity Book</h4>
+              <p class="mb-5" style="text-align: left">These books are meant for children to play, have fun, and learn with Segundo The Series.
+                The activities are designed for school work as well as individual use at home.
+                The instructions are easy to follow and the characters and vocabulary are the same as in
+                the stories.<br>
+                The intention of these Activity Books is that the children may practice abilities and use
+                resources learnt at school in a fun context.
+                ¡ Learn, play and have fun is possible with Segundo!
+              </p></em>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 13 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-13">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Segundo y su familia</h2><br><h4>Libro de Actividades</h4>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/segundo-flia-Act-1.jpg" alt="segundo y su familia libro de Actividades">
+              
+              <p class="mb-5" style="text-align: left">Si te gustó Segundo y su familia vas a querer seguir compartiendo con él. 
+                ¡Este libro está pensado para vos! Vas a encontrar Actividades para jugar solo o en equipos, para dibujar y pintar, para descubrir, para aprender, para completar, para pensar y conversar.
+                ¡Seguro te vas a divertir con estas actividades!
+              </p>
+
+              <em><h2 class="text-secondary mb-0">Segundo & family</h2><br><h4>Activity Book</h4>
+              <p class="mb-5" style="text-align: left">If you liked Segundo & family you'll want to keep on sharing with them!
+                This book was meant for you. You’ll find activities to draw and paint, to play alone or in groups, to learn, to think and chat. You’ll surely have fun with these activities!
+              </p></em>
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-flia-Act-2.jpg" alt="actividades">
+             
+              <h2 class="text-secondary mb-0">Segundo La Serie</h2><br><h4>Libro de Actividades</h4>
+              <p class="mb-5" style="text-align: left">Estos libros están pensados para que los chicos puedan jugar, divertirse y aprender con la
+                colección Segundo La Serie.
+                Las actividades están diseñadas para usarse tanto en la escuela como en casa.
+                Las instrucciones son sencillas y los personajes y el vocabulario son los mismos de las
+                historias.<br>
+                La intención de estos libros de actividades es que los chicos puedan practicar habilidades
+                y utilizar recursos del contexto escolar en un entorno divertido.
+                ¡ Aprender jugando es posible con Segundo!
+              </p>
+              <em><h2 class="text-secondary mb-0">Segundo The Series</h2><br><h4>Activity Book</h4>
+              <p class="mb-5" style="text-align: left">These books are meant for children to play, have fun, and learn with Segundo The Series.
+                The activities are designed for school work as well as individual use at home.
+                The instructions are easy to follow and the characters and vocabulary are the same as in
+                the stories.<br>
+                The intention of these Activity Books is that the children may practice abilities and use
+                resources learnt at school in a fun context.
+                ¡ Learn, play and have fun is possible with Segundo!
+              </p></em>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 14 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-14">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Segundo y sus amigos</h2><br><h4>Libro de Actividades</h4>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/segundo-ami-Act-1.jpg" alt="segundo y sus amigos Libro de Actividades">
+              
+              <p class="mb-5" style="text-align: left">Si te gustó Segundo y sus amigos vas a querer seguir compartiendo con ellos. 
+                ¡Este libro está pensado para vos! Vas a encontrar Actividades para jugar solo o en equipos, para dibujar y pintar, para descubrir, para aprender, para completar, para pensar y conversar.
+                ¡Seguro te vas a divertir con estas actividades!
+              </p>
+
+              <em><h2 class="text-secondary mb-0">Segundo & Friends</h2><br><h4>Activity Book</h4>
+              <p class="mb-5" style="text-align: left">If you liked Segundo & Friends you'll want to keep on sharing with them!
+                This book was meant for you. You’ll find activities to draw and paint, to play alone or in groups, to learn, to think and chat. You’ll surely have fun with these activities!
+              </p></em>
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-ami-Act-2.jpg" alt="actividades">
+              
+              <h2 class="text-secondary mb-0">Segundo La Serie</h2><br><h4>Libro de Actividades</h4>
+              <p class="mb-5" style="text-align: left">Estos libros están pensados para que los chicos puedan jugar, divertirse y aprender con la
+                colección Segundo La Serie.
+                Las actividades están diseñadas para usarse tanto en la escuela como en casa.
+                Las instrucciones son sencillas y los personajes y el vocabulario son los mismos de las
+                historias.<br>
+                La intención de estos libros de actividades es que los chicos puedan practicar habilidades
+                y utilizar recursos del contexto escolar en un entorno divertido.
+                ¡ Aprender jugando es posible con Segundo!
+              </p>
+              <em><h2 class="text-secondary mb-0">Segundo The Series Activity Book</h2>
+              <p class="mb-5" style="text-align: left">These books are meant for children to play, have fun, and learn with Segundo The Series.
+                The activities are designed for school work as well as individual use at home.
+                The instructions are easy to follow and the characters and vocabulary are the same as in
+                the stories.<br>
+                The intention of these Activity Books is that the children may practice abilities and use
+                resources learnt at school in a fun context.
+                ¡ Learn, play and have fun is possible with Segundo!
+              </p></em>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 15 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-15">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Segundo y sus humanos</h2><br><h4>Libro de Actividades</h4>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/segundo-hum-Act-1.jpg" alt="segundo y sus humanos libro de Actividades">
+              
+              <p class="mb-5" style="text-align: left">Si te gustó Segundo y sus humanos vas a querer seguir compartiendo con él. 
+                ¡Este libro está pensado para vos! Vas a encontrar Actividades para jugar solo o en equipos, para dibujar y pintar, para descubrir, para aprender, para completar, para pensar y conversar.
+                ¡Seguro te vas a divertir con estas actividades!
+              </p>
+
+              <em><h2 class="text-secondary mb-0">Segundo and his humans</h2><br><h4>Activity Book</h4>
+                <p class="mb-5" style="text-align: left">If you liked Segundo and his humans you'll want to keep on sharing with them!
+                  This book was meant for you. You’ll find activities to draw and paint, to play alone or in groups, to learn, to think and chat. You’ll surely have fun with these activities!
+                </p></em>
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-hum-Act-2.jpg" alt="actividades">
+             
+              <h2 class="text-secondary mb-0">Segundo La Serie </h2><br><h4>Libro de Actividades</h4>
+              <p class="mb-5" style="text-align: left">Estos libros están pensados para que los chicos puedan jugar, divertirse y aprender con la
+                colección Segundo La Serie.
+                Las actividades están diseñadas para usarse tanto en la escuela como en casa.
+                Las instrucciones son sencillas y los personajes y el vocabulario son los mismos de las
+                historias.<br>
+                La intención de estos libros de actividades es que los chicos puedan practicar habilidades
+                y utilizar recursos del contexto escolar en un entorno divertido.
+                ¡ Aprender jugando es posible con Segundo!
+              </p>
+              <em><h2 class="text-secondary mb-0">Segundo The Series</h2><br><h4>Activity Book</h4>
+              <p class="mb-5" style="text-align: left">These books are meant for children to play, have fun, and learn with Segundo The Series.
+                The activities are designed for school work as well as individual use at home.
+                The instructions are easy to follow and the characters and vocabulary are the same as in
+                the stories.<br>
+                The intention of these Activity Books is that the children may practice abilities and use
+                resources learnt at school in a fun context.
+                ¡ Learn, play and have fun is possible with Segundo!
+              </p></em>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 16 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-16">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Segundo y los números</h2><br><h4>Libro de Actividades</h4>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/segundoAct-num2.png" alt="segundo y los números libro de Actividades">
+              
+              <p class="mb-5" style="text-align: left">Si te gustó Segundo y los números vas a querer seguir compartiendo con él. 
+                ¡Este libro está pensado para vos! Vas a encontrar Actividades para jugar solo o en equipos, para dibujar y pintar, para descubrir, para aprender, para completar, para pensar y conversar.
+                ¡Seguro te vas a divertir con estas actividades!
+              </p>
+
+              <em><h2 class="text-secondary mb-0">Segundo & the Numbers</h2><br><h4>Activity Book</h4>
+                <p class="mb-5" style="text-align: left">If you liked Segundo & the Numbers you'll want to keep on sharing with them!
+                  This book was meant for you. You’ll find activities to draw and paint, to play alone or in groups, to learn, to think and chat. You’ll surely have fun with these activities!
+                </p></em>
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundoAct-num3.jpg" alt="actividades">
+             
+              <h2 class="text-secondary mb-0">Segundo La Serie </h2><br><h4>Libro de Actividades</h4>
+              <p class="mb-5" style="text-align: left">Estos libros están pensados para que los chicos puedan jugar, divertirse y aprender con la
+                colección Segundo La Serie.
+                Las actividades están diseñadas para usarse tanto en la escuela como en casa.
+                Las instrucciones son sencillas y los personajes y el vocabulario son los mismos de las
+                historias.<br>
+                La intención de estos libros de actividades es que los chicos puedan practicar habilidades
+                y utilizar recursos del contexto escolar en un entorno divertido.
+                ¡ Aprender jugando es posible con Segundo!
+              </p>
+              <em><h2 class="text-secondary mb-0">Segundo The Series</h2><br><h4>Activity Book</h4>
+              <p class="mb-5" style="text-align: left">These books are meant for children to play, have fun, and learn with Segundo The Series.
+                The activities are designed for school work as well as individual use at home.
+                The instructions are easy to follow and the characters and vocabulary are the same as in
+                the stories.<br>
+                The intention of these Activity Books is that the children may practice abilities and use
+                resources learnt at school in a fun context.
+                ¡ Learn, play and have fun is possible with Segundo!
+              </p></em>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 17 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-17">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Las cuatro estaciones de Segundo</h2><br><h4>Libro de Actividades</h4>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/segundoAct-4est2.png" alt="Las cuatro estaciones de Segundo libro de Actividades">
+              
+              <p class="mb-5" style="text-align: left">Si te gustó Las cuatro estaciones de Segundo vas a querer seguir compartiendo con él. 
+                ¡Este libro está pensado para vos! Vas a encontrar Actividades para jugar solo o en equipos, para dibujar y pintar, para descubrir, para aprender, para completar, para pensar y conversar.
+                ¡Seguro te vas a divertir con estas actividades!
+              </p>
+
+              <em><h2 class="text-secondary mb-0">Segundo’s Four Seasons</h2><br><h4>Activity Book</h4>
+                <p class="mb-5" style="text-align: left">If you liked Segundo’s Four Seasons you'll want to keep on sharing with them!
+                  This book was meant for you. You’ll find activities to draw and paint, to play alone or in groups, to learn, to think and chat. You’ll surely have fun with these activities!
+                </p></em>
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundoAct-4est3.jpg" alt="actividades">
+             
+              <h2 class="text-secondary mb-0">Segundo La Serie </h2><br><h4>Libro de Actividades</h4>
+              <p class="mb-5" style="text-align: left">Estos libros están pensados para que los chicos puedan jugar, divertirse y aprender con la
+                colección Segundo La Serie.
+                Las actividades están diseñadas para usarse tanto en la escuela como en casa.
+                Las instrucciones son sencillas y los personajes y el vocabulario son los mismos de las
+                historias.<br>
+                La intención de estos libros de actividades es que los chicos puedan practicar habilidades
+                y utilizar recursos del contexto escolar en un entorno divertido.
+                ¡ Aprender jugando es posible con Segundo!
+              </p>
+              <em><h2 class="text-secondary mb-0">Segundo The Series</h2><br><h4>Activity Book</h4>
+              <p class="mb-5" style="text-align: left">These books are meant for children to play, have fun, and learn with Segundo The Series.
+                The activities are designed for school work as well as individual use at home.
+                The instructions are easy to follow and the characters and vocabulary are the same as in
+                the stories.<br>
+                The intention of these Activity Books is that the children may practice abilities and use
+                resources learnt at school in a fun context.
+                ¡ Learn, play and have fun is possible with Segundo!
+              </p></em>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 18 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-18">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Segundo y la guerra</h2>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/segundo-ylaguerra-1.jpg" alt="Tapa del libro Segundo y la guerra">
+              <h2 class="text-secondary mb-0">Segundo y la guerra</h2>
+              <p class="mb-5" style="text-align: left">Segundo nos cuenta la historia de su hermana India y nos muestra que sólo se necesita amor para tener un mundo sin guerras.</p>
+              <em><h2 class="text-secondary mb-0">Segundo & the war</h2>
+              <p class="mb-5" style="text-align: left">Segundo tells us his sister India’s story and shows us that it just takes a little caring and sharing to make a better world.</p></em>
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-ylaguerra-2.jpg" alt="página doble del libro, parece que vienen con esto de la guerra desde siempre">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-ylaguerra-3.jpg" alt="página doble del libro, la tratamos con mucho amor">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-ylaguerra-4.jpg" alt="página doble del libro, Mis Humanos decían que peleaba porque les tenía miedo">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-ylaguerra-5.jpg" alt="página doble del libro, Yo me pregunto: Podrán aprender a tratarse sin miedo">
+              <h2 class="text-secondary mb-0">La serie de Segundo</h2>
+              <p class="mb-5" style="text-align: left">Segundo es una colección de ocho libros para chicos hasta nueve años de edad. La serie tiene como protagonista a un cachorro de Golden Retriever . Los libros que componen la
+                colección son: “Segundo y los números”, “Las cuatro estaciones de Segundo”, “Segundo y sus amigos”, “Segundo y su familia” , ”Segundo y sus Humanos” , “Segundo y la Pandemia”, “Segundo y la Guerra” y “Segundo y el Planeta”. Todas las historias están contadas desde el punto de vista que el cachorro tiene del mundo que lo rodea. Esto se
+                muestra en el texto, así como también en la manera en la cual están ilustradas las escenas.
+                Las historias son graciosas y conmovedoras. Todos los libros de la serie contienen una foto real de Segundo en el colofón.<br>
+                Los libros pueden ser leídos en casa o también ser usados con propósitos educativos ya que abarcan temas diversos como cantidades, numeración, similitudes y diferencias, las cuatro estaciones, relaciones familiares, cuidado de la salud, la amistad, la adopción , la pandemia, la guerra y el cambio climático. Todos los libros tienen una versión en español y en inglés.
+                También cada libro tiene un libro de actividades recreativas y educativas.<br>
+                Los libros se encuentran en formato papel y en formato digital.
+              </p>
+              <em><h2 class="text-secondary mb-0">Segundo Series</h2>
+              <p class="mb-5" style="text-align: left">Segundo is a book series about a Golden Retreiver; a puppy who happens to be my own.
+                There are eight books in this series: “Segundo &amp; Numbers”, “Segundo’s Four Seasons”, “Segundo &amp; Friends”, “Segundo &amp; Family” , “Segundo &amp; his Humans” , “Segundo &amp; the Pandemic” ,”Segundo &amp; the War” and “Segundo &amp; the Planet”. All books are based on the observation of a dog´s world in everyday and real situations. All stories are told from his point of view of the world. This is shown in the plot and also in the way that situations are pictured. Stories are funny and heart touching. At the end, all the books contain a real picture of the puppy. They can be used for independent reading or sharing at story time. They can even be used for educational purposes as they cover different subjects such as: Counting, quantities, numbers, the four seasons, similarities and differences, description, friendship, health care, family relationships, adoption, the Pandemic, the War and global warming, as well as learning to love and care for others.<br>
+                All books have an Activity Book in which children can find entertainment and learning activities. The age group can go from one, to nine years old. All books have a Spanish and an English version.<br>
+                You can find all books in digital format as well.
+              </p></em>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal 19 -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-19">
+      <div class="portfolio-modal-dialog bg-white">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="text-secondary text-uppercase mb-0">Segundo y el planeta</h2>
+              <br>
+              <img class="img-fluid mb-5" src="img/portfolio/segundo-yelplaneta-1.jpg" alt="Tapa del libro Segundo y el planeta">
+              <h2 class="text-secondary mb-0">Segundo y el Planeta</h2>
+              <p class="mb-5" style="text-align: left">El Planeta se está calentando…¡Hay que hacer algo ya! Segundo nos cuenta cómo con sus Humanos, están ayudando al Planeta y nos muestra que puede ser muy divertido.</p>
+              <em><h2 class="text-secondary mb-0">Segundo & the Planet</h2>
+              <p class="mb-5" style="text-align: left">The Planet is warming up… We have to do something right now! Segundo tells us how he and his Humans are helping the Planet and shows us this can be fun!</p></em>
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-yelplaneta-2.jpg" alt="página doble del libro, Mis Humanos están diciendo que el Planeta se está calentando.">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-yelplaneta-3.jpg" alt="página doble del libro, Antes tiraban las cáscaras de la verdura y la fruta en el tacho de basura">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-yelplaneta-4.jpg" alt="página doble del libro, Para calentarse, mis Humanos no usan más la caldera">
+              <img class="img-fluid mb-5 border border-dark" src="img/portfolio/segundo-yelplaneta-5.jpg" alt="página doble del libro, Plantamos árboles en el jardín y a la orilla del río">
+              <h2 class="text-secondary mb-0">La serie de Segundo</h2>
+              <p class="mb-5" style="text-align: left">Segundo es una colección de ocho libros para chicos hasta nueve años de edad. La serie tiene como protagonista a un cachorro de Golden Retriever . Los libros que componen la
+                colección son: “Segundo y los números”, “Las cuatro estaciones de Segundo”, “Segundo y sus amigos”, “Segundo y su familia” , ”Segundo y sus Humanos” , “Segundo y la Pandemia”, “Segundo y la Guerra” y “Segundo y el Planeta”. Todas las historias están contadas desde el punto de vista que el cachorro tiene del mundo que lo rodea. Esto se
+                muestra en el texto, así como también en la manera en la cual están ilustradas las escenas.
+                Las historias son graciosas y conmovedoras. Todos los libros de la serie contienen una foto real de Segundo en el colofón.<br>
+                Los libros pueden ser leídos en casa o también ser usados con propósitos educativos ya que abarcan temas diversos como cantidades, numeración, similitudes y diferencias, las cuatro estaciones, relaciones familiares, cuidado de la salud, la amistad, la adopción , la pandemia, la guerra y el cambio climático. Todos los libros tienen una versión en español y en inglés.
+                También cada libro tiene un libro de actividades recreativas y educativas.<br>
+                Los libros se encuentran en formato papel y en formato digital.
+              </p>
+              <em><h2 class="text-secondary mb-0">Segundo Series</h2>
+              <p class="mb-5" style="text-align: left">Segundo is a book series about a Golden Retreiver; a puppy who happens to be my own.
+                There are eight books in this series: “Segundo &amp; Numbers”, “Segundo’s Four Seasons”, “Segundo &amp; Friends”, “Segundo &amp; Family” , “Segundo &amp; his Humans” , “Segundo &amp; the Pandemic” ,”Segundo &amp; the War” and “Segundo &amp; the Planet”. All books are based on the observation of a dog´s world in everyday and real situations. All stories are told from his point of view of the world. This is shown in the plot and also in the way that situations are pictured. Stories are funny and heart touching. At the end, all the books contain a real picture of the puppy. They can be used for independent reading or sharing at story time. They can even be used for educational purposes as they cover different subjects such as: Counting, quantities, numbers, the four seasons, similarities and differences, description, friendship, health care, family relationships, adoption, the Pandemic, the War and global warming, as well as learning to love and care for others.<br>
+                All books have an Activity Book in which children can find entertainment and learning activities. The age group can go from one, to nine years old. All books have a Spanish and an English version.<br>
+                You can find all books in digital format as well.
+              </p></em>
+              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
+                <i class="fa fa-times"></i>
+                Close Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/freelancer.min.js"></script>
+
+
+  </body>
+
+</html>
